@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
     FrameworksResDevice \
     SettingsResDevice \
     SettingsProviderResDevice \
-    SystemUIResDevice
+    SystemUIResDevice \
+    WifiResDevice
 
 # Init files
 PRODUCT_PACKAGES += \
