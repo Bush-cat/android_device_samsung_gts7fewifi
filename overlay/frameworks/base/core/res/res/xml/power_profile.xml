@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="ambient.on">7</item>
-    <item name="screen.on">201</item>
-    <item name="screen.full">1507</item>
+    <item name="ambient.on.display0">7</item>
+    <item name="screen.on.display0">201</item>
+    <item name="screen.full.display0">1507</item>
     <item name="bluetooth.active">0</item>
     <item name="bluetooth.on">0</item>
     <item name="wifi.on">0</item>
