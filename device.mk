@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+TARGET_IS_TABLET := true
+
 DEVICE_PATH := device/samsung/gts7fewifi
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
