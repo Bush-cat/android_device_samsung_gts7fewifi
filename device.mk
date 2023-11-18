@@ -24,6 +24,9 @@ $(call inherit-product, device/samsung/sm7325-common/common.mk)
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 
+# GMS
+WITH_GMS_COMMS_SUITE := false
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7fewifi.rc
