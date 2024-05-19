@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_gts7fewifi.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_gts7fewifi-userdebug \
-    lineage_gts7fewifi-user \
-    lineage_gts7fewifi-eng
