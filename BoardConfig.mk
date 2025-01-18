@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a52sxq
+DEVICE_PATH := device/samsung/gts7fewifi
 
 include device/samsung/sm7325-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG        := vendor/lineage-a52sxq_defconfig
-BOARD_NAME                  := SRPUE26A001
+TARGET_KERNEL_CONFIG        := vendor/lineage-gts7fewifi_defconfig
+BOARD_NAME                  := SRPUF17A008
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
@@ -29,20 +29,18 @@ RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)
 
 # Recovery
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_RIGHT
+TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := ROTATION_RIGHT
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 340
+TARGET_IS_TABLET := true
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := a52sxq
+TARGET_OTA_ASSERT_DEVICE := gts7fewifi
 
 # Security patch
 VENDOR_SECURITY_PATCH := 2024-11-01
-
-# UDFPS
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.a52sxq
-TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
-SOONG_CONFIG_qtidisplay_udfps := true
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

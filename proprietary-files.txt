@@ -1,4 +1,4 @@
-# All blobs are from A528BXXUAGXK8 (U), unless pinned
+# All blobs are from T733XXS8DXJ1 (U), unless pinned
 
 # Audio
 vendor/lib/hw/audio.primary.lahaina.so
@@ -6,14 +6,6 @@ vendor/lib/libspeakercalibration.so
 vendor/firmware/dax_param.bin
 
 # ACDB
-vendor/etc/audconf/ODM/Global_cal.acdb
-vendor/etc/audconf/ODM/Bluetooth_cal.acdb
-vendor/etc/audconf/ODM/Headset_cal.acdb
-vendor/etc/audconf/ODM/General_cal.acdb
-vendor/etc/audconf/ODM/workspaceFile.qwsp
-vendor/etc/audconf/ODM/Speaker_cal.acdb
-vendor/etc/audconf/ODM/Hdmi_cal.acdb
-vendor/etc/audconf/ODM/Handset_cal.acdb
 vendor/etc/audconf/OPEN/Global_cal.acdb
 vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
 vendor/etc/audconf/OPEN/Headset_cal.acdb
@@ -29,16 +21,10 @@ vendor/firmware/bt_nvm_loading.xml
 # Camera
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
-vendor/lib64/hw/camera.qcom.so|26cea3ebddc2694d539d34fec16277ca13251816
-vendor/lib64/hw/com.qti.chi.override.so|b4daaa080c3a3a7cea042a1b9427c8f862a25c61
-vendor/lib/camera/com.samsung.sensormodule.1_0_lsi_s5kgd2.bin
-vendor/lib/camera/com.samsung.tuned.lsi_s5k3l6.bin
-vendor/lib/camera/com.samsung.sensormodule.13_0_lsi_s5kgd2_full.bin
+vendor/lib64/hw/camera.qcom.so|414ffc1316d9d762bd5669d0ec623adb1f4e0873
+vendor/lib64/hw/com.qti.chi.override.so|3338c7051aa86c2d6cfb38a0fb3a80de029ddd65
 vendor/lib/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so
-vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k3l6.bin
-vendor/lib/camera/com.samsung.sensor.s5kgd2.so
-vendor/lib/camera/com.samsung.sensor.gc5035.so
 vendor/lib/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
 vendor/lib/camera/components/com.qti.node.swlsc.so
@@ -90,40 +76,19 @@ vendor/lib/camera/components/com.ss.stats.awb.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib/camera/components/com.qti.node.gpu.so
+vendor/lib/camera/com.samsung.sensor.gc5035.so
 vendor/lib/camera/com.samsung.tuned.lsi_gc5035.bin
-vendor/lib/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
-vendor/lib/camera/com.samsung.sensor.s5kgw1p.so
-vendor/lib/camera/com.samsung.sensormodule.0_0_lsi_s5kgw1p_otp.bin
-vendor/lib/camera/com.samsung.sensormodule.0_0_lsi_s5kgw1p.bin
-vendor/lib/camera/com.samsung.sensor.gc5035_macro.so
-vendor/lib/camera/com.samsung.sensormodule.0_1_sony_imx682.bin
-vendor/lib/camera/com.samsung.sensormodule.1_1_sony_imx616.bin
-vendor/lib/camera/com.samsung.tuned.lsi_s5kgd2.bin
-vendor/lib/camera/com.samsung.sensormodule.13_0_lsi_s5kgd2_full_otp.bin
-vendor/lib/camera/com.samsung.sensormodule.3_lsi_gc5035.bin
-vendor/lib/camera/com.samsung.sensor.s5k3l6.so
-vendor/lib/camera/com.samsung.sensormodule.13_1_sony_imx616_full.bin
+vendor/lib/camera/com.samsung.sensormodule.1_lsi_gc5035.bin
+vendor/lib/camera/com.samsung.sensormodule.13_lsi_gc5035.bin
+vendor/lib/camera/com.samsung.sensor.imx355.so
+vendor/lib/camera/com.samsung.tuned.sony_imx355.bin
+vendor/lib/camera/com.samsung.sensormodule.0_0_sony_imx355.bin
 vendor/lib/camera/com.qti.tuned.default.bin
-vendor/lib/camera/com.samsung.sensormodule.1_0_lsi_s5kgd2_otp.bin
-vendor/lib/camera/com.samsung.tuned.sony_imx616.bin
-vendor/lib/camera/com.samsung.tuned.lsi_gc5035_macro.bin
-vendor/lib/camera/com.samsung.sensor.imx682.so
-vendor/lib/camera/com.samsung.tuned.sony_imx682.bin
-vendor/lib/camera/com.samsung.tuned.lsi_s5kgw1p.bin
-vendor/lib/camera/com.qti.eeprom.n24s64b_imx616.so
 vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so
-vendor/lib/camera/com.samsung.sensor.imx616.so
-vendor/lib/camera/com.samsung.ois.mcu_stm32g.so
-vendor/lib64/camera/com.samsung.sensormodule.1_0_lsi_s5kgd2.bin
 vendor/lib64/camera/t_t10_dual_calibration.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin
-vendor/lib64/camera/com.samsung.sensormodule.13_0_lsi_s5kgd2_full.bin
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/uw_dual_calibration.bin
-vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k3l6.bin
-vendor/lib64/camera/com.samsung.sensor.s5kgd2.so
-vendor/lib64/camera/com.samsung.sensor.gc5035.so
 vendor/lib64/camera/f_dual_calibration.bin
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so
@@ -183,31 +148,16 @@ vendor/lib64/camera/components/com.ss.stats.awb.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib64/camera/components/com.qti.node.gpu.so
-vendor/lib64/camera/com.samsung.tuned.lsi_gc5035.bin
-vendor/lib64/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin
-vendor/lib64/camera/com.samsung.sensor.s5kgw1p.so
-vendor/lib64/camera/com.samsung.sensormodule.0_0_lsi_s5kgw1p_otp.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_0_lsi_s5kgw1p.bin
-vendor/lib64/camera/com.samsung.sensor.gc5035_macro.so
-vendor/lib64/camera/com.samsung.sensormodule.0_1_sony_imx682.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_1_sony_imx616.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5kgd2.bin
-vendor/lib64/camera/com.samsung.sensormodule.13_0_lsi_s5kgd2_full_otp.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_lsi_gc5035.bin
-vendor/lib64/camera/com.samsung.sensor.s5k3l6.so
-vendor/lib64/camera/com.samsung.sensormodule.13_1_sony_imx616_full.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_0_lsi_s5kgd2_otp.bin
-vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin
-vendor/lib64/camera/com.samsung.sensor.imx682.so
-vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5kgw1p.bin
-vendor/lib64/camera/com.qti.eeprom.n24s64b_imx616.so
+vendor/lib64/camera/com.samsung.sensor.gc5035.so
+vendor/lib64/camera/com.samsung.tuned.lsi_gc5035.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_lsi_gc5035.bin
+vendor/lib64/camera/com.samsung.sensormodule.13_lsi_gc5035.bin
+vendor/lib64/camera/com.samsung.sensor.imx355.so
+vendor/lib64/camera/com.samsung.tuned.sony_imx355.bin
+vendor/lib64/camera/com.samsung.sensormodule.0_0_sony_imx355.bin
 vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
-vendor/lib64/camera/com.samsung.sensor.imx616.so
-vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
 vendor/lib/com.qti.feature2.gs.kodiak.so
 vendor/lib64/com.qti.feature2.gs.kodiak.so
 vendor/lib/com.qti.feature2.rt.so
@@ -257,184 +207,65 @@ vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/libsec2qc_conversion.so
 
 # Camera firmware
-vendor/firmware/ois_mcu_stm32g_fw.bin
-
-# Fingerprint
-vendor/lib64/libbauthserver.so
-vendor/lib64/libbauthtzcommon.so
-vendor/lib64/libsynaFpSensorTestNwd.so
-vendor/lib64/libegis_fp_normal_sensor_test.so
-vendor/lib64/libqfp_sensortest.so
-vendor/lib64/libgf_in_system_lib.so
+vendor/firmware/evass-lt.b11
+vendor/firmware/evass-lt.b12
+vendor/firmware/evass-lt.b13
+vendor/firmware/evass-lt.b14
+vendor/firmware/evass-lt.b15
+vendor/firmware/evass-lt.b16
+vendor/firmware/evass-lt.b17
+vendor/firmware/evass-lt.b18
+vendor/firmware/evass-lt.mbn
+vendor/firmware/evass-lt.mdt
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
 
 # Graphics
-vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_LO_FHD.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_FT8203_TS124QDM_WQXGA.xml
+vendor/etc/qdcm_calib_data_ss_dsi_panel_HX83121_PPC357DB11_WQXGA.xml
 
-# NFC
-vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
-vendor/etc/nfc/sec_s3nrn4v_swreg.bin
-vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleEx3TL3210/HotwordEnrollmentOKGoogleEx3TL3210.apk
+-product/priv-app/HotwordEnrollmentXGoogleEx3TL3210/HotwordEnrollmentXGoogleEx3TL3210.apk
 
 # Sensors
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
+vendor/etc/sensors/hals.conf
 vendor/etc/sensors/config/kodiak_ak991x_0.json
 vendor/etc/sensors/config/kodiak_lsm6dso_0.json
-vendor/etc/sensors/config/kodiak_stk31610_0.json
+vendor/etc/sensors/config/kodiak_veml3235_0.json
+vendor/etc/sensors/config/kodiak_veml3235_1.json
 vendor/etc/sensors/config/lsm6dso_0.json
 
 # Touchscreen firmware
-vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin
+vendor/firmware/epen/w9021_gts7xllite.bin
+vendor/firmware/tsp_focaltech/ft8203_gts7xllite.bin
+vendor/firmware/tsp_himax/hx83121a_gts7xllite.bin
 
 # Touchscreen firmware (recovery)
-vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin:recovery/root/vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin
+vendor/firmware/tsp_focaltech/ft8203_gts7xllite.bin:recovery/root/vendor/firmware/tsp_focaltech/ft8203_gts7xllite.bin
+vendor/firmware/tsp_himax/hx83121a_gts7xllite.bin:recovery/root/vendor/firmware/tsp_himax/hx83121a_gts7xllite.bin
 
-# Wifi firmware (bootloader revision 1) - from A528BXXU1DWA4 (T)
-vendor/firmware/wpss.b00|bbbf98507f63f2fbc6f04ed5328d88190de9f124
-vendor/firmware/wpss.b01|b01ec74238fb844a77f0dd0521f68f8aec295e22
-vendor/firmware/wpss.b02|01a62a6929ca782d3216a159ecfba873ccb1aa2d
-vendor/firmware/wpss.b03|662486b7c0a931f1265d0f3ca942a854943ca974
-vendor/firmware/wpss.b04|6b4e5aecb98ce669a09638db698e66a255775a8f
-vendor/firmware/wpss.b05|de0fa830b6bbf388f63b36c3b18d47d92711764e
-vendor/firmware/wpss.b06|4a527ed4dfc2be3a12cfa5c6f6cff5513bfe34d7
-vendor/firmware/wpss.b07|3413d463c82e90fe1ef15c8dc65502050265ca31
-vendor/firmware/wpss.mdt|7dd84106147f2e13e189133c5757839bba4fd680
-
-# Wifi firmware (bootloader revision 1) - from A528NKSS1DWA1 (T)
-vendor/firmware/wlan/a528n/rev1/wpss.b01|b9dcd9ce2fa81563f9f93ed3b5cf414cf640a6b7
-vendor/firmware/wlan/a528n/rev1/wpss.mdt|20dbdadc5304730938e1ac127e9a9b2e0ba5e032
-
-# Wifi firmware (bootloader revision 2) - from A528BXXU2EWC1 (T)
-vendor/firmware/wlan/a528b/rev2/wpss.b00|ec9771fe39350cc2ff27c36e5fdb7f8f0ca4aeb3
-vendor/firmware/wlan/a528b/rev2/wpss.b01|3b5c6e0b4ded8456999a4fb03fd0c60fc0b067ce
-vendor/firmware/wlan/a528b/rev2/wpss.b02|1d01914176991452ba141f762ab9b7b32774ab9e
-vendor/firmware/wlan/a528b/rev2/wpss.b03|ac543c537d6779ca5ba08bb6c01fea1aca9d5053
-vendor/firmware/wlan/a528b/rev2/wpss.b04|6cf9481034d98db6d5e2d283f24f7f69f62a4cd9
-vendor/firmware/wlan/a528b/rev2/wpss.b05|4921bc0a7acc43180097eeba29a8e21bbf6270cc
-vendor/firmware/wlan/a528b/rev2/wpss.b06|aa2cdff7b662830ecc28261eb963ea5d78a06842
-vendor/firmware/wlan/a528b/rev2/wpss.b07|ccd078161284175e6ea66ba1314e79707894ea84
-vendor/firmware/wlan/a528b/rev2/wpss.mdt|955e96de1082c77a0c28d8660f5e8c10a394b6b3
-
-# Wifi firmware (bootloader revision 3) - from A528BXXU3EWC6 (T)
-vendor/firmware/wlan/a528b/rev3/wpss.b01|1dc2cfa9983acea0c06b761d64b77cbe9baee4ca
-vendor/firmware/wlan/a528b/rev3/wpss.mdt|d131a35f69dc2a780fa468c2b378bd187ecba2d8
-
-# Wifi firmware (bootloader revision 4) - from A528BXXS4EWE5 (T)
-vendor/firmware/wlan/a528b/rev4/wpss.b01|fc33353016da2b398177529eae250c25c5621b08
-vendor/firmware/wlan/a528b/rev4/wpss.mdt|b6e759833f00852e8e4ab93cc59b854eef19c529
-
-# Wifi firmware (bootloader revision 2) - from A528NKSU2EWB4 (T)
-vendor/firmware/wlan/a528n/rev2/wpss.b01|32cb22661c41b72a598f04be119e99890b09af0c
-vendor/firmware/wlan/a528n/rev2/wpss.mdt|10dce042a9c55e6ea5c21a554f2fac10d06286b1
-
-# Wifi firmware (bootloader revision 5) - from A528BXXS5EWH4 (T)
-vendor/firmware/wlan/a528b/rev5/wpss.b00|6e49240887c3130b534baa1fac897a797f895b15
-vendor/firmware/wlan/a528b/rev5/wpss.b01|517c1ea120c08ce61359d8a0de76d8047004702c
-vendor/firmware/wlan/a528b/rev5/wpss.b02|4454971055ff504f84cf2f953aeab17af9818fcb
-vendor/firmware/wlan/a528b/rev5/wpss.b03|bbaec8a5d9a417b666c97b36fd00ed307f9ee191
-vendor/firmware/wlan/a528b/rev5/wpss.b04|31805d7a4d43d5f5bdbc6de0d81729885e1c6b1d
-vendor/firmware/wlan/a528b/rev5/wpss.b05|1a7a508c2d447ab3ac122a4e9c08ac41ce204a97
-vendor/firmware/wlan/a528b/rev5/wpss.b06|5a8550f4952ac9ffa8d10280a70e92770a1d41a6
-vendor/firmware/wlan/a528b/rev5/wpss.b07|ca58a5af6afcd88b0acca60d9c1da7e994b4e8a8
-vendor/firmware/wlan/a528b/rev5/wpss.mdt|b217d9f3c9df4d75bd0ffcba2d25062090dd4463
-
-# Wifi firmware (bootloader revision 3) - from A528NKSS3FXC2 (U)
-vendor/firmware/wlan/a528n/rev3/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
-vendor/firmware/wlan/a528n/rev3/wpss.b01|213bed2c41301e93de418ce18805bb091b7da24d
-vendor/firmware/wlan/a528n/rev3/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
-vendor/firmware/wlan/a528n/rev3/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
-vendor/firmware/wlan/a528n/rev3/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
-vendor/firmware/wlan/a528n/rev3/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
-vendor/firmware/wlan/a528n/rev3/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528n/rev3/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
-vendor/firmware/wlan/a528n/rev3/wpss.mdt|8b7ee8d1a21c5904b3d1270d57f59e82f1bb0fea
-
-# Wifi firmware (bootloader revision 6) - from A528BXXS6FXA1 (U)
-vendor/firmware/wlan/a528b/rev6/wpss.b00|cacb157ada108966547ba56ce85b18b5f4375b76
-vendor/firmware/wlan/a528b/rev6/wpss.b01|c8440d027fe12fd581992c3c82b17d7b71547055
-vendor/firmware/wlan/a528b/rev6/wpss.b02|9e181ded637329fc207048fc49742cd1f94fc69e
-vendor/firmware/wlan/a528b/rev6/wpss.b03|53da0f973a5638b78ff62bcdfd8ddb52585c5850
-vendor/firmware/wlan/a528b/rev6/wpss.b04|c907076779e7726c18739dae823859eec1dac25d
-vendor/firmware/wlan/a528b/rev6/wpss.b05|3cbbcb2923dbd6423df3a1ddbf984646d894faf7
-vendor/firmware/wlan/a528b/rev6/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528b/rev6/wpss.b07|a5059d526e0897c81317d8a31b64b24330ef9b08
-vendor/firmware/wlan/a528b/rev6/wpss.mdt|a6943bce230d4a096bb93d680cce49e63a045099
-
-# Wifi firmware (bootloader revision 7) - from A528BXXS7FXC8 (U)
-vendor/firmware/wlan/a528b/rev7/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
-vendor/firmware/wlan/a528b/rev7/wpss.b01|11f38638385377da061640014f7fa71f518ae8e5
-vendor/firmware/wlan/a528b/rev7/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
-vendor/firmware/wlan/a528b/rev7/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
-vendor/firmware/wlan/a528b/rev7/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
-vendor/firmware/wlan/a528b/rev7/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
-vendor/firmware/wlan/a528b/rev7/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528b/rev7/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
-vendor/firmware/wlan/a528b/rev7/wpss.mdt|6ee8baf9aaa991818a5e561915d9ff77a7eb9adf
-
-# Wifi firmware (bootloader revision 4) - from A528NKSU4GXE1 (U)
-vendor/firmware/wlan/a528n/rev4/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
-vendor/firmware/wlan/a528n/rev4/wpss.b01|beedaf669d5d02b3d6d85aa4438ba1f58e6a08e8
-vendor/firmware/wlan/a528n/rev4/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
-vendor/firmware/wlan/a528n/rev4/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
-vendor/firmware/wlan/a528n/rev4/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
-vendor/firmware/wlan/a528n/rev4/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
-vendor/firmware/wlan/a528n/rev4/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528n/rev4/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
-vendor/firmware/wlan/a528n/rev4/wpss.mdt|abe4372f07c05d6a126961023e673a45d86cf585
-
-# Wifi firmware (bootloader revision 8) - from A528BXXS8GXE1 (U)
-vendor/firmware/wlan/a528b/rev8/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
-vendor/firmware/wlan/a528b/rev8/wpss.b01|c4dab3acd2e611260d0742ec8fcdce026985b98b
-vendor/firmware/wlan/a528b/rev8/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
-vendor/firmware/wlan/a528b/rev8/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
-vendor/firmware/wlan/a528b/rev8/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
-vendor/firmware/wlan/a528b/rev8/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
-vendor/firmware/wlan/a528b/rev8/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528b/rev8/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
-vendor/firmware/wlan/a528b/rev8/wpss.mdt|407c1826d16784b45177c74c0e7298e64d576d70
-
-# Wifi firmware (bootloader revision 9) - from A528BXXS9GXF8 (U)
-vendor/firmware/wlan/a528b/rev9/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
-vendor/firmware/wlan/a528b/rev9/wpss.b01|126652374f752391bc88f16ab1c2403ab2df6e11
-vendor/firmware/wlan/a528b/rev9/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
-vendor/firmware/wlan/a528b/rev9/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
-vendor/firmware/wlan/a528b/rev9/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
-vendor/firmware/wlan/a528b/rev9/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
-vendor/firmware/wlan/a528b/rev9/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528b/rev9/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
-vendor/firmware/wlan/a528b/rev9/wpss.mdt|b40d44dc49fc19d90ff1c1061f278b92ae2ea610
-
-# Wifi firmware (bootloader revision 10) - from A528BXXSAGXK1 (U)
-vendor/firmware/wlan/a528b/rev10/wpss.b00|8575e1dcc60ceabcdd71614bf166b43516dc9581
-vendor/firmware/wlan/a528b/rev10/wpss.b01|db90bc41c9b79d2eddff9a5f8307351cd1b3be35
-vendor/firmware/wlan/a528b/rev10/wpss.b02|aad880e803217c6e3d0a26dc7caa73d157330c72
-vendor/firmware/wlan/a528b/rev10/wpss.b03|faa8ea4c7d78d00e891423b87f4a9f78c66f425c
-vendor/firmware/wlan/a528b/rev10/wpss.b04|966ced8b50a6476c9090669e053a2975ba21f297
-vendor/firmware/wlan/a528b/rev10/wpss.b05|f38b129c4f6227477511859a6249a3481c4a07f9
-vendor/firmware/wlan/a528b/rev10/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528b/rev10/wpss.b07|748df8e5e00a69d9ead466924833f87b525eda7f
-vendor/firmware/wlan/a528b/rev10/wpss.mdt|3124463e127d6735d35edd1bc72a3326b385cd3c
-
-# Wifi firmware (bootloader revision 5) - from A528NKSS5GXG1 (U)
-vendor/firmware/wlan/a528n/rev5/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
-vendor/firmware/wlan/a528n/rev5/wpss.b01|b3715ac0fb4279edea0674c55210450c49f9545c
-vendor/firmware/wlan/a528n/rev5/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
-vendor/firmware/wlan/a528n/rev5/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
-vendor/firmware/wlan/a528n/rev5/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
-vendor/firmware/wlan/a528n/rev5/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
-vendor/firmware/wlan/a528n/rev5/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528n/rev5/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
-vendor/firmware/wlan/a528n/rev5/wpss.mdt|a565c21a4fdf414efea754cdcc7c19ba6c1ffc16
-
-# Wifi firmware (bootloader revision 6) - from A528NKSU6GXK3 (U)
-vendor/firmware/wlan/a528n/rev6/wpss.b00|8575e1dcc60ceabcdd71614bf166b43516dc9581
-vendor/firmware/wlan/a528n/rev6/wpss.b01|6138994baafc43ef4a207d6ea5c2cf5c33085fea
-vendor/firmware/wlan/a528n/rev6/wpss.b02|aad880e803217c6e3d0a26dc7caa73d157330c72
-vendor/firmware/wlan/a528n/rev6/wpss.b03|faa8ea4c7d78d00e891423b87f4a9f78c66f425c
-vendor/firmware/wlan/a528n/rev6/wpss.b04|966ced8b50a6476c9090669e053a2975ba21f297
-vendor/firmware/wlan/a528n/rev6/wpss.b05|f38b129c4f6227477511859a6249a3481c4a07f9
-vendor/firmware/wlan/a528n/rev6/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wlan/a528n/rev6/wpss.b07|748df8e5e00a69d9ead466924833f87b525eda7f
-vendor/firmware/wlan/a528n/rev6/wpss.mdt|2da5e47672920cc7b7d98ad1f6d56e8cdfcb3b85
+# Wifi firmware (bootloader revision 8) - from T733XXS8DXJ1 (U)
+# TODO combine checksum
+# sha1sum vendor/firmware/wpss.b00 vendor/firmware/wpss.b01 vendor/firmware/wpss.b02 vendor/firmware/wpss.b03 vendor/firmware/wpss.b04 vendor/firmware/wpss.b05 vendor/firmware/wpss.b06 vendor/firmware/wpss.b07 vendor/firmware/wpss.mdt
+vendor/firmware/wpss.b00:vendor/firmware/wlan/t733/rev8/wpss.b00 # 8575e1dcc60ceabcdd71614bf166b43516dc9581
+vendor/firmware/wpss.b01:vendor/firmware/wlan/t733/rev8/wpss.b01 # ceba9fb62ebaf348054e1bc6139e6393db91685a
+vendor/firmware/wpss.b02:vendor/firmware/wlan/t733/rev8/wpss.b02 # aad880e803217c6e3d0a26dc7caa73d157330c72
+vendor/firmware/wpss.b03:vendor/firmware/wlan/t733/rev8/wpss.b03 # faa8ea4c7d78d00e891423b87f4a9f78c66f425c
+vendor/firmware/wpss.b04:vendor/firmware/wlan/t733/rev8/wpss.b04 # 966ced8b50a6476c9090669e053a2975ba21f297
+vendor/firmware/wpss.b05:vendor/firmware/wlan/t733/rev8/wpss.b05 # f38b129c4f6227477511859a6249a3481c4a07f9
+vendor/firmware/wpss.b06:vendor/firmware/wlan/t733/rev8/wpss.b06 # 7e68827f93f83f312ab0bc02af48383e6defa707
+vendor/firmware/wpss.b07:vendor/firmware/wlan/t733/rev8/wpss.b07 # 748df8e5e00a69d9ead466924833f87b525eda7f
+vendor/firmware/wpss.mdt:vendor/firmware/wlan/t733/rev8/wpss.mdt # 33bcb802be075ca60ab393a4527e52cb5961d31e

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a52sxq
+DEVICE_PATH := device/samsung/gts7fewifi
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
@@ -22,20 +22,13 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 $(call inherit-product, device/samsung/sm7325-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a52sxq/a52sxq-vendor.mk)
+$(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.a52sxq.rc
+    init.gts7fewifi.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(DEVICE_PATH)/configs/audio/audio_platform_info_diff.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_diff.xml \
-
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
-PRODUCT_PACKAGES += \
-    sensors.a52sxq

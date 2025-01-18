@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=a52sxq
+export DEVICE=gts7fewifi
 export DEVICE_COMMON=sm7325-common
 export VENDOR=samsung
 export VENDOR_COMMON=${VENDOR}
