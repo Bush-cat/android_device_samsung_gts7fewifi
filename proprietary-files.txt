@@ -236,16 +236,22 @@ vendor/etc/qdcm_calib_data_ss_dsi_panel_HX83121_PPC357DB11_WQXGA.xml
 -product/priv-app/HotwordEnrollmentOKGoogleEx3TL3210/HotwordEnrollmentOKGoogleEx3TL3210.apk
 -product/priv-app/HotwordEnrollmentXGoogleEx3TL3210/HotwordEnrollmentXGoogleEx3TL3210.apk
 
+# Keyboard
+vendor/firmware/keyboard_stm/stm32_gts7llite.bin
+
 # Sensors
 vendor/lib/sensors.grip.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 vendor/etc/sensors/hals.conf
+vendor/etc/sensors/config/bridge_driver_2.json
 vendor/etc/sensors/config/kodiak_ak991x_0.json
 vendor/etc/sensors/config/kodiak_lsm6dso_0.json
 vendor/etc/sensors/config/kodiak_veml3235_0.json
 vendor/etc/sensors/config/kodiak_veml3235_1.json
+vendor/etc/sensors/config/veml3235_0.json
+vendor/etc/sensors/config/veml3235_1.json
 vendor/etc/sensors/config/lsm6dso_0.json
 
 # Touchscreen firmware
@@ -260,12 +266,36 @@ vendor/firmware/tsp_himax/hx83121a_gts7xllite.bin:recovery/root/vendor/firmware/
 # Wifi firmware (bootloader revision 8) - from T733XXS8DXJ1 (U)
 # TODO combine checksum
 # sha1sum vendor/firmware/wpss.b00 vendor/firmware/wpss.b01 vendor/firmware/wpss.b02 vendor/firmware/wpss.b03 vendor/firmware/wpss.b04 vendor/firmware/wpss.b05 vendor/firmware/wpss.b06 vendor/firmware/wpss.b07 vendor/firmware/wpss.mdt
-vendor/firmware/wpss.b00:vendor/firmware/wlan/t733/rev8/wpss.b00 # 8575e1dcc60ceabcdd71614bf166b43516dc9581
-vendor/firmware/wpss.b01:vendor/firmware/wlan/t733/rev8/wpss.b01 # ceba9fb62ebaf348054e1bc6139e6393db91685a
-vendor/firmware/wpss.b02:vendor/firmware/wlan/t733/rev8/wpss.b02 # aad880e803217c6e3d0a26dc7caa73d157330c72
-vendor/firmware/wpss.b03:vendor/firmware/wlan/t733/rev8/wpss.b03 # faa8ea4c7d78d00e891423b87f4a9f78c66f425c
-vendor/firmware/wpss.b04:vendor/firmware/wlan/t733/rev8/wpss.b04 # 966ced8b50a6476c9090669e053a2975ba21f297
-vendor/firmware/wpss.b05:vendor/firmware/wlan/t733/rev8/wpss.b05 # f38b129c4f6227477511859a6249a3481c4a07f9
-vendor/firmware/wpss.b06:vendor/firmware/wlan/t733/rev8/wpss.b06 # 7e68827f93f83f312ab0bc02af48383e6defa707
-vendor/firmware/wpss.b07:vendor/firmware/wlan/t733/rev8/wpss.b07 # 748df8e5e00a69d9ead466924833f87b525eda7f
-vendor/firmware/wpss.mdt:vendor/firmware/wlan/t733/rev8/wpss.mdt # 33bcb802be075ca60ab393a4527e52cb5961d31e
+# vendor/firmware/wpss.b00:vendor/firmware/wlan/t733/rev8/wpss.b00 # 8575e1dcc60ceabcdd71614bf166b43516dc9581
+# vendor/firmware/wpss.b01:vendor/firmware/wlan/t733/rev8/wpss.b01 # ceba9fb62ebaf348054e1bc6139e6393db91685a
+# vendor/firmware/wpss.b02:vendor/firmware/wlan/t733/rev8/wpss.b02 # aad880e803217c6e3d0a26dc7caa73d157330c72
+# vendor/firmware/wpss.b03:vendor/firmware/wlan/t733/rev8/wpss.b03 # faa8ea4c7d78d00e891423b87f4a9f78c66f425c
+# vendor/firmware/wpss.b04:vendor/firmware/wlan/t733/rev8/wpss.b04 # 966ced8b50a6476c9090669e053a2975ba21f297
+# vendor/firmware/wpss.b05:vendor/firmware/wlan/t733/rev8/wpss.b05 # f38b129c4f6227477511859a6249a3481c4a07f9
+# vendor/firmware/wpss.b06:vendor/firmware/wlan/t733/rev8/wpss.b06 # 7e68827f93f83f312ab0bc02af48383e6defa707
+# vendor/firmware/wpss.b07:vendor/firmware/wlan/t733/rev8/wpss.b07 # 748df8e5e00a69d9ead466924833f87b525eda7f
+# vendor/firmware/wpss.mdt:vendor/firmware/wlan/t733/rev8/wpss.mdt # 33bcb802be075ca60ab393a4527e52cb5961d31e
+
+vendor/firmware/wpss.b00
+vendor/firmware/wpss.b01
+vendor/firmware/wpss.b02
+vendor/firmware/wpss.b03
+vendor/firmware/wpss.b04
+vendor/firmware/wpss.b05
+vendor/firmware/wpss.b06
+vendor/firmware/wpss.b07
+vendor/firmware/wpss.mdt
+
+vendor/firmware/yupik_ipa_fws.b00 # a43669e4c8ad4af399b829c7986651bef2fd058a
+vendor/firmware/yupik_ipa_fws.b01 # 3b74d2189eb6419d1cc3dd638c085c6c27f1e016
+vendor/firmware/yupik_ipa_fws.b02 # c0f5259e45f67f322459e7afde30cba608b9ea5f
+vendor/firmware/yupik_ipa_fws.b03 # c07cfef57f8f694b4cee41e78700614efbedf2bc
+vendor/firmware/yupik_ipa_fws.b04 # 7aa0ec649f20af523f21c6e19014987f86f18dff
+vendor/firmware/yupik_ipa_fws.elf # 84da6599d882c2d2599b75bd7e57f89cbc80ac0c
+vendor/firmware/yupik_ipa_fws.mdt # 2248446981255cc324f607877db62e07883d5903
+
+# SAMSUNG_SLSI_FIRMWARE
+vendor/firmware/dbmd8_va_asrp_fw.bin
+vendor/firmware/dbmd8_va_fw.bin
+
+vendor/firmware/cs35l45-dsp1-spk-prot.wmfw
