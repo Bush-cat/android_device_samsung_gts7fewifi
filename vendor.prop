@@ -4,6 +4,3 @@ bluetooth.device.default_name=Galaxy Tab S7 FE
 # Wifi-only
 ro.radio.noril=yes
 ro.carrier=wifi-only
-
-# Display
-#ro.minui.default_rotation=ROTATION_RIGHT
