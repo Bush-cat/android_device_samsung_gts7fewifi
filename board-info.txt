@@ -1,2 +1,2 @@
 require board=lahaina|gts7fewifi
-# require version-bootloader-min=D
+require version-bootloader-min=D

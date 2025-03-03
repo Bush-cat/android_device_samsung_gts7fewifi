@@ -33,17 +33,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
-# Display
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.primary_display_orientation=ORIENTATION_90
-
 TARGET_IS_TABLET := true
 PRODUCT_CHARACTERISTICS := tablet
 
-# NFC
-TARGET_HAVE_SEC_NFC := false
-
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_gts7fewifi
 PRODUCT_DEVICE := gts7fewifi
 PRODUCT_BRAND := samsung
