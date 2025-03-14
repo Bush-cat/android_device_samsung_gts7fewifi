@@ -28,6 +28,10 @@ $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 PRODUCT_PACKAGES += \
     init.gts7fewifi.rc
 
+# Samsung IDC files
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/idc/sec_e-pen.idc:vendor/usr/idc/sec_e-pen.idc
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
