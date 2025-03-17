@@ -24,6 +24,9 @@ $(call inherit-product, device/samsung/sm7325-common/common.mk)
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.bootanim.set_orientation_4630947232161729154=ORIENTATION_90
+
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
