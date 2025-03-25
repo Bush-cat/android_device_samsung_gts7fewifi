@@ -22,4 +22,8 @@
 
     <!-- Enable auto rotation switching by default -->
     <bool name="def_accelerometer_rotation">true</bool>
+
+    <!-- Enable automatic brightness by default -->
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
+
 </resources>
