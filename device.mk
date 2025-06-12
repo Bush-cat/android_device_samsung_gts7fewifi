@@ -14,13 +14,18 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
 # call the common setup
 $(call inherit-product, device/samsung/sm7325-common/common.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/a52sxq/a52sxq-vendor.mk)
+
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworksResDevice \
+    SettingsResDevice \
+    SettingsProviderResDevice \
+    SystemUIResDevice
 
 # Init files
 PRODUCT_PACKAGES += \
