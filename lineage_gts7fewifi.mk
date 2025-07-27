@@ -45,6 +45,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Vendor fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint="samsung/gts7fewifixx/gts7fewifi:11/RP1A.200720.012/T733XXS9DYE1:user/release-keys" \
-    BuildDesc="gts7fewifixx-user 11 RP1A.200720.012 T733XXS9DYE1 release-keys" \
+    BuildDesc="gts7fewifixx-user 13 TP1A.220624.014 T733XXS9DYE1 release-keys" \
     DeviceProduct=gts7fewifixx \
     SystemName=gts7fewifixx
