@@ -4,4 +4,5 @@ sec_tclm_v2.ko
 sec_secure_touch.ko
 sec_tsp_dumpkey.ko
 sec_common_fn.ko
-stm_ts.ko
+focaltech_ts_ft820x.ko
+himax_ts_hx831xx.ko

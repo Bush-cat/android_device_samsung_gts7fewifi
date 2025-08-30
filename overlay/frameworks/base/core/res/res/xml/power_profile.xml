@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="ambient.on">26</item>
-    <item name="screen.on">100</item>
-    <item name="screen.full">208</item>
+    <item name="ambient.on">7</item>
+    <item name="screen.on">201</item>
+    <item name="screen.full">1507</item>
     <item name="bluetooth.active">0</item>
     <item name="bluetooth.on">0</item>
     <item name="wifi.on">0</item>
     <item name="wifi.active">0</item>
     <item name="wifi.scan">0</item>
-    <item name="audio">18</item>
+    <item name="audio">60</item>
     <item name="video">25</item>
-    <item name="camera.flashlight">61</item>
-    <item name="camera.avg">185</item>
-    <item name="gps.on">47</item>
-    <item name="radio.active">152</item>
-    <item name="radio.scanning">77</item>
+    <item name="camera.flashlight">0</item>
+    <item name="camera.avg">504</item>
+    <item name="gps.on">37</item>
+    <item name="radio.active">0</item>
+    <item name="radio.scanning">0</item>
     <array name="radio.on">
-        <value>1.3</value>
-        <value>1.3</value>
+        <value>0</value>
+        <value>0</value>
     </array>
     <array name="cpu.clusters.cores">
         <value>4</value>
@@ -95,12 +95,12 @@
         <value>337</value>
     </array>
     <item name="cpu.idle">13</item>
-    <item name="cpu.suspend">6</item>
+    <item name="cpu.suspend">7</item>
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
-    <item name="battery.capacity">4370</item>
-    <item name="battery.typical.capacity">4500</item>
+    <item name="battery.capacity">9800</item>
+    <item name="battery.typical.capacity">10090</item>
     <item name="bluetooth.controller.idle">6</item>
     <item name="bluetooth.controller.rx">19</item>
     <item name="bluetooth.controller.tx">47</item>
