@@ -16,6 +16,10 @@ $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.bootanim.set_orientation_4630947232161729154=ORIENTATION_90
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
