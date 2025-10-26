@@ -4,6 +4,11 @@ ro.audio.monitorRotation=true
 # Bluetooth
 bluetooth.device.default_name=Galaxy Tab S7 FE
 
+# Display Orientation
+ro.surface_flinger.primary_display_orientation=ORIENTATION_0
+debug.sf.ignore_hwc_physical_display_orientation=true
+ro.bootanim.set_orientation_4630947232161729154=ORIENTATION_90
+
 # RIL
 ro.radio.noril=yes
 ro.carrier=wifi-only

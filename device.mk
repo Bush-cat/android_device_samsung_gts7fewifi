@@ -25,6 +25,7 @@ $(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
+    Launcher3ResDevice \
     SettingsProviderResDevice \
     WifiResDevice
 
