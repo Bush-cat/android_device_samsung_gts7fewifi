@@ -16,28 +16,40 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+TARGET_IS_TABLET := true
+
 # call the common setup
 $(call inherit-product, device/samsung/sm7325-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a52sxq/a52sxq-vendor.mk)
+$(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.bootanim.set_orientation_4630947232161729154=ORIENTATION_90
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.a52sxq.rc
+    init.gts7fewifi.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/configs/audio/audio_platform_info_diff.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_diff.xml \
 
+# Graphics
+PRODUCT_AAPT_CONFIG := xlarge
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+# A list of dpis to select prebuilt apk, in precedence order.
+PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.camera.autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.autofocus.xml
+
+# Samsung IDC files
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
-PRODUCT_PACKAGES += \
-    sensors.a52sxq
-
-# UDFPS
-$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
-$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)

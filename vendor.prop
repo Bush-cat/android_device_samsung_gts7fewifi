@@ -1,7 +1,15 @@
-# Bluetooth
-bluetooth.device.default_name=Galaxy A52s 5G
+# Audio
+ro.audio.monitorRotation=true
 
-# Fingerprint
-ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=540|2137|119
-ro.vendor.fingerprint.request_touch_event=true
+# Bluetooth
+bluetooth.device.default_name=Galaxy Tab S7 FE
+
+# Keymaster
+ro.hardware.keystore_desede=true
+
+# RIL
+ro.vendor.use_data_netmgrd=false
+persist.vendor.radio.enableadvancedscan=true
+ro.telephony.default_network=33,33
+ro.radio.noril=yes
+ro.carrier=wifi-only

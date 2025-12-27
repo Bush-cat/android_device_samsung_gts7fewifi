@@ -15,39 +15,37 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a52sxq/device.mk)
+$(call inherit-product, device/samsung/gts7fewifi/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Inherit from the common Open Source product configuration
 TARGET_SUPPORTS_OMX_SERVICE := false
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
-# NFC
-TARGET_HAVE_SEC_NFC := true
+TARGET_SCREEN_HEIGHT := 1600
+TARGET_SCREEN_WIDTH := 2560
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a52sxq
-PRODUCT_DEVICE := a52sxq
+PRODUCT_NAME := lineage_gts7fewifi
+PRODUCT_DEVICE := gts7fewifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A528B
+PRODUCT_MODEL := SM-T733
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Vendor fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint="samsung/a52sxqxx/a52sxq:11/RP1A.200720.012/A528BXXUAGXK8:user/release-keys" \
-    BuildDesc="a52sxqxx-user 11 RP1A.200720.012 A528BXXUAGXK8 release-keys"
+    BuildFingerprint="samsung/gts7fewifixx/gts7fewifi:11/RP1A.200720.012/T733XXS9DYF1:user/release-keys" \
+    BuildDesc="gts7fewifixx-user 11 RP1A.200720.012 T733XXS9DYF1 release-keys"
