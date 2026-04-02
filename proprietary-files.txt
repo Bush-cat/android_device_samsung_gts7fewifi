@@ -189,6 +189,12 @@ vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin
 # Touchscreen firmware (recovery)
 vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin:recovery/root/vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin
 
+# Wifi
+vendor/firmware/qca6750/bdwlan.elf1
+vendor/firmware/qca6750/bdwlan.elf2
+vendor/firmware/qca6750/bdwlan.elf
+vendor/firmware/qca6750/bdwlan.elf10
+
 # Wifi firmware (bootloader revision 1) - from A528BXXU1DWA4 (T)
 vendor/firmware/wpss.b00|bbbf98507f63f2fbc6f04ed5328d88190de9f124
 vendor/firmware/wpss.b01|b01ec74238fb844a77f0dd0521f68f8aec295e22
