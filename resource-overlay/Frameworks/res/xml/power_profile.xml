@@ -99,7 +99,7 @@
     <array name="memory.bandwidths">
         <value>22.7</value>
     </array>
-    <item name="battery.capacity">4500</item>
+    <item name="battery.capacity">10090</item>
     <item name="bluetooth.controller.idle">6</item>
     <item name="bluetooth.controller.rx">19</item>
     <item name="bluetooth.controller.tx">47</item>

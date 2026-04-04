@@ -1,56 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <displayConfiguration>
-    <screenBrightnessMap>
+    <screenBrightnessMap interpolation="linear">
         <point>
             <value>0.0</value>
-            <nits>2</nits>
+            <nits>4.6</nits>
         </point>
         <point>
-            <value>0.0247</value>
-            <nits>9.9</nits>
+            <value>0.001956947</value>
+            <nits>4.7</nits>
         </point>
         <point>
-            <value>0.0741</value>
-            <nits>34.8</nits>
+            <value>0.003913894</value>
+            <nits>4.8</nits>
         </point>
         <point>
-            <value>0.2181</value>
-            <nits>135.5</nits>
+            <value>0.005870841</value>
+            <nits>4.9</nits>
         </point>
         <point>
-            <value>0.428</value>
-            <nits>322.7</nits>
+            <value>0.007827789</value>
+            <nits>6.15</nits>
         </point>
         <point>
-            <value>0.4918</value>
-            <nits>386.2</nits>
+            <value>0.009784736</value>
+            <nits>7.36</nits>
         </point>
         <point>
-            <value>0.5144</value>
-            <nits>409.4</nits>
+            <value>0.011741683</value>
+            <nits>9.6</nits>
         </point>
         <point>
-            <value>0.5247</value>
-            <nits>420</nits>  <!-- Maximum non-HBM brightness nits -->
+            <value>0.013698630</value>
+            <nits>10.72</nits>
         </point>
         <point>
-            <value>0.5267</value>
-            <nits>425</nits> <!-- HBM -->
+            <value>0.015655577</value>
+            <nits>11.93</nits>
         </point>
         <point>
-            <value>0.537</value>
-            <nits>433.1</nits> <!-- HBM -->
+            <value>0.017612524</value>
+            <nits>12.86</nits>
+        </point>
+        <point>
+            <value>0.019569472</value>
+            <nits>14.07</nits>
+        </point>
+        <point>
+            <value>0.021526419</value>
+            <nits>15.19</nits>
+        </point>
+        <point>
+            <value>0.023483366</value>
+            <nits>17.71</nits>
+        </point>
+        <point>
+            <value>0.025440313</value>
+            <nits>18.64</nits>
+        </point>
+        <point>
+            <value>0.183953033</value>
+            <nits>138.69</nits>
+        </point>
+        <point>
+            <value>0.236790607</value>
+            <nits>171.03</nits>
+        </point>
+        <point>
+            <value>0.287671233</value>
+            <nits>235.71</nits>
+        </point>
+        <point>
+            <value>0.293542074</value>
+            <nits>237.95</nits>
+        </point>
+        <point>
+            <value>0.311154599</value>
+            <nits>267.96</nits>
+        </point>
+        <point>
+            <value>0.324853229</value>
+            <nits>279.98</nits>
+        </point>
+        <point>
+            <value>0.332681018</value>
+            <nits>294.34</nits>
+        </point>
+        <point>
+            <value>0.356164384</value>
+            <nits>322.49</nits>
+        </point>
+        <point>
+            <value>0.363992172</value>
+            <nits>326.03</nits>
+        </point>
+        <point>
+            <value>0.371819961</value>
+            <nits>341.41</nits>
+        </point>
+        <point>
+            <value>0.395303327</value>
+            <nits>363.68</nits>
+        </point>
+        <point>
+            <value>0.469667319</value>
+            <nits>453.34</nits>
+        </point>
+        <point>
+            <value>0.495107632</value>
+            <nits>474.13</nits>
+        </point>
+        <point>
+            <value>0.497064579</value>
+            <nits>477.48</nits>
+        </point>
+        <point>
+            <value>0.499021526</value>
+            <nits>500</nits> <!-- Maximum non-HBM brightness nits -->
+        </point>
+        <point>
+            <value>0.500978474</value>
+            <nits>600</nits> <!-- HBM -->
         </point>
         <point>
             <value>1.0</value>
-            <nits>800</nits> <!-- HBM -->
+            <nits>600</nits> <!-- HBM -->
         </point>
     </screenBrightnessMap>
 
-    <screenBrightnessDefault>0.48235294</screenBrightnessDefault>
+    <screenBrightnessDefault>0.244618395</screenBrightnessDefault>
 
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.5247</transitionPoint>
+        <transitionPoint>0.49902153</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
         <minimumLux>3000</minimumLux>
         <timing>
@@ -60,12 +140,12 @@
         </timing>
         <sdrHdrRatioMap>
             <point>
-                <sdrNits>2.0</sdrNits>
-                <hdrRatio>8.0</hdrRatio>
+                <sdrNits>2.000</sdrNits>
+                <hdrRatio>1.200</hdrRatio>
             </point>
             <point>
-                <sdrNits>800.0</sdrNits>
-                <hdrRatio>2.0</hdrRatio>
+                <sdrNits>500.000</sdrNits>
+                <hdrRatio>1.200</hdrRatio>
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
@@ -85,7 +165,7 @@
     </hdrBrightnessConfig>
 
     <lightSensor>
-        <type>com.samsung.sensor.auto_brightness</type>
-        <name>stk_stk31610 Auto Brightness Non-wakeup</name>
+        <type>android.sensor.light</type>
+        <name>VEML3235 Light Ambient Light Sensor Non-wakeup</name>
     </lightSensor>
 </displayConfiguration>
