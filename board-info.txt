@@ -1,1 +1,1 @@
-require board=lahaina|a52sxq
+require board=lahaina|gts7fewifi

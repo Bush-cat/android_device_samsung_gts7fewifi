@@ -14,24 +14,27 @@
 # limitations under the License.
 #
 
+TARGET_IS_TABLET := true
+
 # call the common setup
 $(call inherit-product, device/samsung/sm7325-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a52sxq/a52sxq-vendor.mk)
+$(call inherit-product, vendor/samsung/gts7fewifi/gts7fewifi-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
-    SettingsResDevice \
     SettingsProviderResDevice \
-    SystemUIResDevice \
     WifiResDevice
+
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.a52sxq.rc \
-    ssu_a52sxqxx.rc \
+    init.gts7fewifi.rc \
     wifi_firmware.rc
 
 # Audio
@@ -43,13 +46,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
-PRODUCT_PACKAGES += \
-    sensors.a52sxq
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# UDFPS
-$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
-$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)

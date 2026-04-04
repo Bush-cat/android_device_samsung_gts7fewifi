@@ -4,15 +4,8 @@
 //
 
 prebuilt_etc {
-    name: "init.a52sxq.rc",
-    src: "init.a52sxq.rc",
-    sub_dir: "init/hw",
-    soc_specific: true,
-}
-
-prebuilt_etc {
-    name: "ssu_a52sxqxx.rc",
-    src: "ssu_a52sxqxx.rc",
+    name: "init.gts7fewifi.rc",
+    src: "init.gts7fewifi.rc",
     sub_dir: "init/hw",
     soc_specific: true,
 }
