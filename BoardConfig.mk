@@ -21,6 +21,7 @@ include device/samsung/sm7325-common/BoardConfigCommon.mk
 # Kernel
 TARGET_KERNEL_CONFIG        := vendor/lineage-gts7fewifi_defconfig
 BOARD_NAME                  := SRPUF17A008
+BOARD_KERNEL_CMDLINE += androidboot.baseband=apq
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
