@@ -116,16 +116,6 @@ on boot
     write /proc/sys/vm/swappiness 160
     write /proc/sys/vm/page-cluster 0
 
-# Pageboostd
-on property:sys.boot_completed=1
-    start pageboostd
-service pageboostd /system/bin/pageboostd
-    class main
-    user system
-    group system mount radio net_bt sdcard_rw shell media media_rw
-    socket pageboostd seqpacket 0660 system system
-    disabled
-
 # SSU (Samsung SIM Unlock)
 on property:ro.boot.carrierid=VZW
     setprop ssu.support 1
