@@ -126,20 +126,6 @@ service pageboostd /system/bin/pageboostd
     socket pageboostd seqpacket 0660 system system
     disabled
 
-# HEIMDALL
-on early-init
-    chmod 0777 /dev/memcg
-    chown system system /dev/memcg
-    chown system system /dev/memcg/cgroup.procs
-
-service heimdalld /system/bin/heimdalld
-    class core
-    user system
-    group system readproc
-    capabilities NET_ADMIN SYS_NICE KILL CHOWN
-    socket heimdalld seqpacket 0660 system system
-    oneshot
-
 # SSU (Samsung SIM Unlock)
 on property:ro.boot.carrierid=VZW
     setprop ssu.support 1
