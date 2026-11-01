@@ -30,10 +30,6 @@
 on early-init
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules q6_pdr_dlkm q6_notifier_dlkm snd_event_dlkm apr_dlkm adsp_loader_dlkm q6_dlkm native_dlkm pinctrl_wcd_dlkm pinctrl_lpi_dlkm platform_dlkm hdmi_dlkm stub_dlkm wcd_core_dlkm bolero_cdc_dlkm va_macro_dlkm rx_macro_dlkm tx_macro_dlkm machine_dlkm
 
-# Create carrier folder for HiddenMenu
-on post-fs
-    mkdir /efs/carrier 0755 radio system
-
 # create data/gps for GPS
 on post-fs-data
     mkdir /data/vendor 0771 system system
@@ -115,32 +111,6 @@ on boot
 on boot
     write /proc/sys/vm/swappiness 160
     write /proc/sys/vm/page-cluster 0
-
-# SSU (Samsung SIM Unlock)
-on property:ro.boot.carrierid=VZW
-    setprop ssu.support 1
-on property:ro.boot.carrierid=CCT
-    setprop ssu.support 1
-on property:ro.boot.carrierid=TMB
-    setprop ssu.support 1
-on property:ro.boot.carrierid=TMK
-    setprop ssu.support 1
-on property:ro.boot.carrierid=USC
-    setprop ssu.support 1
-
-# some priv-apps of SPR bind mount to TMB priv-apps
-on post-fs-data && property:ro.csc.sales_code=TMB
-    umount /system/carrier
-    mkdir /mnt/temp
-    mount none /system/carrier/SPR /mnt/temp bind
-    mount none /system/carrier/TMB /system/carrier bind
-    mount none /mnt/temp/priv-app/MobileID /system/carrier/priv-app/MobileID bind
-    mount none /mnt/temp/priv-app/CarrierDeviceManager /system/carrier/priv-app/CarrierDeviceManager bind
-    mount none /mnt/temp/priv-app/MobileInstaller /system/carrier/priv-app/MobileInstaller bind
-    mount none /mnt/temp/priv-app/SprintAndroidExtension2 /system/carrier/priv-app/SprintAndroidExtension2 bind
-    mount none /mnt/temp/priv-app/SprintHub /system/carrier/priv-app/SprintHub bind
-    umount /mnt/temp
-    rmdir /mnt/temp
 
 on property:sys.sysctl.zram_balance_ratio=*
     write /sys/module/zram/parameters/zram_balance_ratio ${sys.sysctl.zram_balance_ratio}
